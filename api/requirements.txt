@@ -1,0 +1,11 @@
+data-profile-classifier==0.0.3
+python-dotenv==0.20.0
+SQLAlchemy-Utils==0.38.2
+uvicorn==0.17.6
+python-multipart==0.0.5
+pydantic==1.9.1
+SQLAlchemy==1.4.36
+fastapi==0.78.0
+psycopg2-binary==2.9.3
+fastapi-pagination==0.9.3
+great_expectations==0.15.6

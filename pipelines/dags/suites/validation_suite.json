@@ -1,0 +1,83 @@
+{
+    "data_asset_type": "Dataset",
+    "ge_cloud_id": null,
+    "meta": {
+        "great_expectations_version": "0.15.6"
+    },
+    "expectations": [
+        {
+            "kwargs": {
+                "column": "entreprise"
+            },
+            "meta": {},
+            "expectation_type": "expect_column_to_exist"
+        },
+        {
+            "kwargs": {
+                "column": "entreprise",
+                "type_list": ["str"]
+            },
+            "meta": {},
+            "expectation_type": "expect_column_values_to_be_in_type_list"
+        },
+        {
+            "kwargs": {
+                "column": "technologies"
+            },
+            "meta": {},
+            "expectation_type": "expect_column_to_exist"
+        },
+        {
+            "kwargs": {
+                "column": "technologies"
+            },
+            "meta": {},
+            "expectation_type": "expect_column_values_to_not_be_null"
+        },
+        {
+            "kwargs": {
+                "column": "technologies",
+                "type_list": ["str"]
+            },
+            "meta": {},
+            "expectation_type": "expect_column_values_to_be_in_type_list"
+        },
+        {
+            "kwargs": {
+                "column": "diplome"
+            },
+            "meta": {},
+            "expectation_type": "expect_column_to_exist"
+        },
+        {
+            "kwargs": {
+                "column": "experience"
+            },
+            "meta": {},
+            "expectation_type": "expect_column_to_exist"
+        },
+        {
+            "kwargs": {
+                "column": "experience"
+            },
+            "meta": {},
+            "expectation_type": "expect_column_values_to_not_be_null"
+        },
+        {
+            "kwargs": {
+                "column": "experience",
+                "type_list": ["str", "float", "int"]
+            },
+            "meta": {},
+            "expectation_type": "expect_column_values_to_be_in_type_list"
+        },
+        {
+            "kwargs": {
+                "column": "ville"
+            },
+            "meta": {},
+            "expectation_type": "expect_column_to_exist"
+        }
+    ],
+    "expectation_suite_name": "default"
+}
